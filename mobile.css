@@ -1,0 +1,180 @@
+@import url("./style.css");
+header{
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+}
+header .container{
+    width: 100%;
+}
+#main-nav{
+    display: flex;
+    flex-direction: column;
+}
+#main-nav > :nth-child(1) img{
+    height: 22px;
+}
+#main-nav > :nth-child(2) > :nth-child(1) ul li{
+    margin:0px 10px;
+}
+#main-nav > :nth-child(2) > :nth-child(1) ul li h3 a{
+    font-size: 18px;
+}
+#main-nav > :nth-child(2){
+    width: 100%;
+    min-height: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#main-nav > :nth-child(2) > :nth-child(2) a{
+    padding: 7px 20px;
+    font-size: 12px;
+}
+/* 
+========================
+Second Section
+========================
+ */
+ #showcase{
+     min-height: auto;
+ }
+ #main-showcase{
+     height: auto;
+ }
+ #main-showcase > :nth-child(1){
+    height: auto;
+}
+.contants > :nth-child(1){
+    font-size: 2em;
+    width: 240px;
+    padding: 0px 0px 50px 10px;
+}
+/* 
+=======================
+Description
+=======================
+ */
+ #main-contant {
+    min-height: 290px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0px 0px 10px;
+    margin-bottom: 40px;
+}
+ #main-contant > :nth-child(1){
+     width: 100%;
+     min-height: auto;
+     font-size: 1.5em;  
+ }
+ #main-contant h2{
+     font-size: 1.2em;
+ }
+ .container{
+     width: 100%;
+ }
+ #Description{
+    min-height: auto;
+ }
+ /* 
+ ========================
+ Third Section
+ ========================
+*/
+#third-section{
+    min-height: auto;
+    margin-bottom: 70px;
+    padding-left: 10px;
+}
+#third-section img{
+    width: 280px;
+}
+#main-contant-third{
+    min-height: auto;
+}
+#main-contant-third > :nth-child(1){
+    min-height: 620px;
+}
+/* 
+=========================
+Fourth Section
+=========================
+ */
+ #fourth-section{
+     min-height: auto;
+     margin-bottom: 45px;
+     padding-left: 10px;
+ }
+ #fourth-section img{
+    width: 280px;
+}
+#main-contant-fourth{
+    min-height: auto;
+}
+#main-contant-fourth > :nth-child(1){
+    min-height: 620px;
+}
+/* 
+=========================
+Fifth Section
+=========================
+ */
+ #fifth-section{
+     padding-bottom: 20px;
+ }
+ #main-fifth > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+ }
+ #cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #cards .card{
+     margin-bottom: 20px;
+ }
+ /* 
+ ========================
+ Footer
+ ========================
+ */
+ footer{
+     min-height: 400px;
+ }
+ #main-footer{
+     min-height: 311px;
+ }
+ #main-footer > :nth-child(1){
+     width: 100%;
+     min-height: 246px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ #main-footer > :nth-child(1) > :nth-child(2){
+     text-align: center;
+ }
+ #main-footer > :nth-child(1) > :nth-child(3) a{
+     margin: 0px 10px;
+ }
+#main-footer > :nth-child(1) > :nth-child(3) a i{
+    font-size: 18px;
+}
+ #main-footer > :nth-child(1) > :nth-child(2) ul li{
+     padding-bottom: 20px;
+ }
+ #main-footer > :nth-child(2) h4{
+    font-size: 0.7em;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+ }
+ 
+
+ 

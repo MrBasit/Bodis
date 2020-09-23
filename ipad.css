@@ -1,0 +1,47 @@
+@import url("./style.css");
+/* 
+====================
+Header
+====================
+*/
+.container{
+    width: 735px;
+}
+#main-nav > :nth-child(2){
+    width: 100%;
+}
+#main-nav > :nth-child(2) > :nth-child(2) a{
+    padding: 10px 25px;
+    font-size: 0.8em;
+}
+
+/* 
+====================
+ShowCase
+====================
+*/
+.contants{
+    width: 100%;
+    padding: 0px 12px;
+}
+
+/* 
+====================
+Fifth Section
+====================
+*/
+#cards .card{
+    width: 233px;
+}
+#main-fifth > :nth-child(2){
+    width: 100%;
+}
+
+/* 
+====================
+Footer
+====================
+*/
+#main-footer > :nth-child(1){
+    width: 735px;
+}

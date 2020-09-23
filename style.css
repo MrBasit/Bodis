@@ -1,0 +1,380 @@
+/*
+========================================
+Global Style
+========================================
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+	font-family: 'Raleway','Kurale', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.text-color-white{
+	color: #fff;
+}
+.text-color-blue{
+	color: #212994;
+}
+.text-color-lightgreen{
+	color: #24D7A3;
+}
+.margin-left{
+	margin-left: 10px;	
+}
+.font-size-3em{
+	font-size: 4em;
+}
+.font-weight-normal{
+	font-weight: normal;
+}
+.font-size-2em{
+	font-size: 2.5em;
+}
+.font-size-1em{
+	font-size: 1.5em;
+}
+.border-radius{
+	border-radius: 8px;
+}
+/*
+========================================
+Header
+========================================
+*/
+header{
+	width: 100%;
+	min-height: 170px;
+	display: flex;
+	align-items: center;
+}
+.container{
+ 	width: 950px;
+	margin: auto;
+}
+#main-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#main-nav > :nth-child(1) img{
+	width: 128px;
+	height: 26px;
+}
+#main-nav > :nth-child(2){
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 700px;
+}
+#main-nav > :nth-child(2) > :nth-child(1) a{
+	font-size: 18px;
+}
+#main-nav > :nth-child(2) > :nth-child(1) ul{
+	display: flex;
+	list-style: none;
+}
+#main-nav > :nth-child(2) > :nth-child(1) ul li{
+	margin-left: 45px;
+}
+#main-nav > :nth-child(2) > :nth-child(2){
+	display: flex;
+}
+#main-nav > :nth-child(2) > :nth-child(2) a{
+	padding: 10px 33px;
+	font-size: 18px;
+	border: 1px solid #24D7A3;
+	transition:all;
+	border-radius: 20px;
+	transition-duration: 0.5s;
+}
+#main-nav > :nth-child(2) > :nth-child(2) a:hover{
+	background: #212994;
+	border: 1px solid #212994;
+	color: #fff;
+}
+#main-nav > :nth-child(2) > :nth-child(2) a i{
+	font-size: 12px;
+}
+#main-nav > :nth-child(2) > :nth-child(2) .second-a{
+	background: #212994;
+	border-radius: 20px;
+	margin-left: 4px;
+	transition: all;
+	transition-duration: 0.5s;
+	/* border: 1px soild #212994 !important; */
+}
+#main-nav > :nth-child(2) > :nth-child(2) .second-a:hover{
+	border: 1px solid #24D7A3;
+	background: #fff;
+	color: #24D7A3;
+}
+
+/*
+========================================
+Show Case
+========================================
+*/
+#showcase{
+	min-height: 600px;
+	width: 100%;
+}
+#main-showcase{
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#main-showcase > :nth-child(1){
+	width: 100%;
+	height: 100%;
+	background: url(foto-sushi-6anudmpILw4-unsplash.jpg) no-repeat center / cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contants{
+	width: 950px;
+	height: 380px;
+	display: flex;
+}
+.contants > :nth-child(1){
+	max-width: 300px;
+	align-self: flex-end;
+}
+/*
+========================================
+Description
+========================================
+*/
+#Description{
+	width: 100%;
+	min-height: 400px;
+}
+#main-contant{
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#main-contant > :nth-child(1){
+	min-height: 200px;
+	width: 600px;
+}
+#main-contant h2{
+	letter-spacing: 2px;
+}
+#main-contant span{
+	border-bottom: 2px solid #212994;
+	padding-bottom: 9px;
+}
+/*
+========================================
+Third Section
+========================================
+*/
+#third-section{
+	width: 100%;
+	min-height: 920px;
+}
+#main-contant-third{
+	max-width: 100%;
+ 	min-height: 920px;
+ 	display: flex;
+ 	align-items: center;
+}
+#main-contant-third > :nth-child(1){
+	min-height: 690px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+}
+#main-contant-third > :nth-child(1) a{
+	padding: 9px 30px;
+	border: 1px solid #212994;
+	background: #212994;
+}
+#main-contant-third > :nth-child(1) a:hover{
+	background: #FFF;
+	border: 1px solid #212994;
+	transition: 0.5s;
+	color: #212994;
+}
+/*
+========================================
+Fourth Section
+========================================
+*/
+#fourth-section{
+	width: 100%;
+	min-height: 980px;
+}
+#main-contant-fourth{
+ 	min-height: 980px;
+ 	display: flex;
+ 	align-items: center;
+}
+#main-contant-fourth > :nth-child(1){
+	min-height: 790px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+}
+#main-contant-fourth > :nth-child(1) > :nth-child(1){
+	max-width: 452px;
+	text-align: center;
+}
+#main-contant-fourth > :nth-child(1) a{
+	padding: 9px 30px;
+	background: #212994;
+	border: 1px solid #212994;
+}
+#main-contant-fourth > :nth-child(1) a:hover{
+	background: #fFF;
+	color: #212994;
+	border: 1px solid #212994;
+	transition: 0.5s
+}
+/*
+========================================
+Fifth Section
+========================================
+*/
+#fifth-section{
+	width: 100%;
+	min-height: 950px;
+	background: #E9F4F7;
+}
+#main-fifth{
+	min-height: 950px;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+}
+#main-fifth h1{
+	line-height: 185px;
+}
+#main-fifth > :nth-child(2){
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 620px;
+	width: 850px;
+}
+#cards{
+	max-width: 100%;
+	min-height: 280px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#cards .card{
+	height: 280px;
+	border-radius: 8px;
+	border: 1px solid #212994;
+	width: 255px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+}
+#cards .card:hover{
+	box-shadow: 5px 5px 30px black;
+	
+}
+#cards a:hover{
+	background-color: #fff;
+	color: #212994 ;
+}
+#cards .card > :nth-child(1){
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 210px;
+	width: 180px;
+	text-align: left;
+}
+#cards .card > :nth-child(1) h4{
+	padding-right: 87px;
+}
+#cards .card > :nth-child(1) a{
+	padding: 6px 8px;
+	background: #212994;
+	max-width: 110px;
+	text-align: center;
+	font-size: 16px;
+	transition: all;
+	border: 1px solid #212994;
+	transition-duration: 0.5s;
+}
+#cards .card > :nth-child(1) a:hover{
+	background-color: #fff;
+	color: #212994;
+	border: 1px solid #212994;
+}
+#cards .card > :nth-child(1) i{
+	font-size: 29px;
+}
+/*
+========================================
+Footer
+========================================
+*/
+footer{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #212994;
+}
+#main-footer{
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 850px;
+	align-items: center;
+}
+#main-footer > :nth-child(1){
+	width: 850px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+#main-footer > :nth-child(1) > :nth-child(1) img{
+	width: 128px;
+	height: 20px;
+	display: block;
+}
+#main-footer > :nth-child(1) > :nth-child(2) ul{
+	list-style: none;
+}
+#main-footer > :nth-child(1) > :nth-child(2) ul li{
+	padding-bottom: 40px;
+}
+#main-footer > :nth-child(1) > :nth-child(3){
+	display: flex;
+}
+#main-footer > :nth-child(1) > :nth-child(3) a{
+	margin-left: 25px;
+}
+#main-footer > :nth-child(1) > :nth-child(3) a i{
+	color: #fff;
+	transition: 0.2s linear;
+}
+#main-footer > :nth-child(1) > :nth-child(3) a i:hover{
+	color: #a2c5db; 
+	transform: scale(1.2);
+}
