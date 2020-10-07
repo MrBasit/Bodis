@@ -25,7 +25,8 @@ a{
 	color: #24D7A3;
 }
 .margin-left{
-	margin-left: 10px;	
+	margin-left: 10px;
+	margin-right: 10px;	
 }
 .font-size-3em{
 	font-size: 4em;
@@ -54,8 +55,8 @@ header{
 	align-items: center;
 }
 .container{
- 	width: 950px;
-	margin: auto;
+	 width: min(1250px, 95%);
+	 margin: 0px auto;
 }
 #main-nav{
 	display: flex;
@@ -114,6 +115,10 @@ header{
 	background: #fff;
 	color: #24D7A3;
 }
+.login-out{
+    width: max-content;
+    max-width: 100%;
+}
 
 /*
 ========================================
@@ -133,7 +138,7 @@ Show Case
 #main-showcase > :nth-child(1){
 	width: 100%;
 	height: 100%;
-	background: url(foto-sushi-6anudmpILw4-unsplash.jpg) no-repeat center / cover;
+	background: url(images/foto-sushi-6anudmpILw4-unsplash.jpg) no-repeat center / cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -164,14 +169,27 @@ Description
 }
 #main-contant > :nth-child(1){
 	min-height: 200px;
-	width: 600px;
+	width: 100%;
 }
 #main-contant h2{
 	letter-spacing: 2px;
+	width: 80%;
+	margin-left: 10%;
 }
+.width{
+	
+	
+}
+.font-size-40px{
+    font-size: 55px !important;
+	margin-left: 10%;
+}
+
 #main-contant span{
 	border-bottom: 2px solid #212994;
 	padding-bottom: 9px;
+}
+
 }
 /*
 ========================================
@@ -180,11 +198,11 @@ Third Section
 */
 #third-section{
 	width: 100%;
-	min-height: 920px;
+	min-height: 870px;
 }
 #main-contant-third{
 	max-width: 100%;
- 	min-height: 920px;
+ 	min-height: 810px;
  	display: flex;
  	align-items: center;
 }
@@ -195,6 +213,7 @@ Third Section
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
+	width: 100%;
 }
 #main-contant-third > :nth-child(1) a{
 	padding: 9px 30px;
@@ -214,10 +233,10 @@ Fourth Section
 */
 #fourth-section{
 	width: 100%;
-	min-height: 980px;
+	min-height: 900px;
 }
 #main-contant-fourth{
- 	min-height: 980px;
+ 	min-height: 810px;
  	display: flex;
  	align-items: center;
 }
@@ -228,6 +247,7 @@ Fourth Section
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
+	width: 100%;
 }
 #main-contant-fourth > :nth-child(1) > :nth-child(1){
 	max-width: 452px;
@@ -251,11 +271,11 @@ Fifth Section
 */
 #fifth-section{
 	width: 100%;
-	min-height: 950px;
+	height: 950px;
 	background: #E9F4F7;
 }
 #main-fifth{
-	min-height: 950px;
+	height: 950px;
 	align-items: center;
 	flex-direction: column;
 	display: flex;
@@ -269,7 +289,7 @@ Fifth Section
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 620px;
-	width: 850px;
+	width: 100%;
 }
 #cards{
 	max-width: 100%;
@@ -277,7 +297,7 @@ Fifth Section
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
+	
 }
 #cards .card{
 	height: 280px;
@@ -290,7 +310,7 @@ Fifth Section
 	transition: 1s;
 }
 #cards .card:hover{
-	box-shadow: 5px 5px 30px black;
+	box-shadow: 3px 3px 15px black;
 	
 }
 #cards a:hover{
@@ -311,9 +331,9 @@ Fifth Section
 #cards .card > :nth-child(1) a{
 	padding: 6px 8px;
 	background: #212994;
-	max-width: 110px;
+	width: 73px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 10px;
 	transition: all;
 	border: 1px solid #212994;
 	transition-duration: 0.5s;
@@ -326,6 +346,7 @@ Fifth Section
 #cards .card > :nth-child(1) i{
 	font-size: 29px;
 }
+
 /*
 ========================================
 Footer
@@ -345,10 +366,11 @@ footer{
 	flex-direction: column;
 	justify-content: space-between;
 	max-width: 850px;
+	
 	align-items: center;
 }
 #main-footer > :nth-child(1){
-	width: 850px;
+	width: 700px;
 	height: 200px;
 	display: flex;
 	justify-content: space-between;

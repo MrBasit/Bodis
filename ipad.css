@@ -5,7 +5,7 @@ Header
 ====================
 */
 .container{
-    width: 735px;
+    width: min(850px,95% ) !important; 
 }
 #main-nav > :nth-child(2){
     width: 100%;
@@ -14,6 +14,11 @@ Header
     padding: 10px 25px;
     font-size: 0.8em;
 }
+.ipad-font{
+    font-size: 55px;
+}
+
+
 
 /* 
 ====================
@@ -24,6 +29,42 @@ ShowCase
     width: 100%;
     padding: 0px 12px;
 }
+.img-width{
+    width: 465px;
+}
+.alignment{
+    width: 100%;
+    text-align: center;
+}
+/*
+======================
+Describtion
+======================
+*/
+#main-contant{
+    min-height: 375px;
+}
+#main-contant-third > :nth-child(1) {
+    min-height: 555px;
+}
+#main-contant-third {
+    min-height: 590px;
+}
+#third-section {
+    min-height: 640px;
+}
+
+.font-size-40px{
+    font-size: 37px !important;
+    text-align: center;
+}
+
+#main-contant > :nth-child(1){
+	min-height: 150px;
+	width: 100%;
+}
+
+
 
 /* 
 ====================
@@ -31,10 +72,36 @@ Fifth Section
 ====================
 */
 #cards .card{
-    width: 233px;
+    width: 185px;
+    height: 215px;
+}
+#cards .font-size{
+    font-size: 11px;
+}
+#cards .font-size-h{
+    font-size: 14px;
+}
+#cards .card > :nth-child(1){
+    width: 150px;
+    min-height: 165px;
+}
+
+#fifth-section{
+    height: 720px;
 }
 #main-fifth > :nth-child(2){
     width: 100%;
+    min-height: 560px;
+}
+#main-fifth{
+    height:640px !important;
+}
+#main-fifth h1{
+	line-height: 100px;
+}
+.widht-height{
+    min-height: 210px;
+    width: 180px;
 }
 
 /* 
@@ -42,6 +109,14 @@ Fifth Section
 Footer
 ====================
 */
+footer{
+    height: 335px;
+}
+#main-footer{
+    max-width: min(850px, 95%);
+    height: 220px;
+    width: 690px;
+}
 #main-footer > :nth-child(1){
-    width: 735px;
+    width: 100%;
 }
