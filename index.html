@@ -10,37 +10,147 @@
 	<link href="https://fonts.googleapis.com/css?family=Kurale|Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- <header>
-		<div class="container">
-			<div id="main-nav">
-				<div>
-					<img src="logo.png">
+	<header>
+        <div class="container">
+           <div class="main__nav">
+                <ul class="nav__lists--reg-btns">
+                    <li>
+                        <a class="btn btn--primary mr-2" href="#"  onclick="loginFunc()"><i class="fas fa-unlock"></i>&nbsp;Log in</a>
+                    </li>
+                    <li>
+                        <a class="btn btn--secondary" href="#" onclick="signUpFunc()">Sign up</a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <img src="./images/logo.png">
+                </div>
+        
+                <div class="nav__main">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Tour</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Support</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Blog</a>
+                        </li>
+                        <li class="nav__item nav__item--push--right">
+                            <a class="nav__link" href="#">Support</a>
+                        </li>
+                        <li class="nav__item  btn-none border-b-none nav__item--sign-pd" onclick="loginFunc()">
+                            <a class="btn btn--primary" href="#"><i class="fas fa-unlock"></i>&nbsp;Log in</a>
+                        </li>
+                        <li class="nav__item btn-none border-b-none" onclick="signUpFunc()">
+                            <a class="btn btn--secondary " href="#">Sign up</a>
+                        </li>
+                    </ul>
 				</div>
-				<div>
-					<div>
-						<ul>
-							<li>
-								<h3><a class="text-color-blue " href="#">Home</a></h3>
-							</li>
-							<li>
-								<h3><a class="text-color-blue " href="#">Tour</a></h3>
-							</li>
-							<li>
-								<h3><a class="text-color-blue " href="#">Blog</a></h3>
-							</li>
-							<li>
-								<h3><a class="text-color-blue " href="#">Support</a></h3>
-							</li>
-						</ul>
+				
+                <div class="manu__btn">
+                    <div class="manu__btn-burger"></div>
+				</div>
+           </div>
+        </div>
+	</header>
+	<!-- Signup Sec -->
+	<section class="signup">
+		<a href="#" class="sign__close__icon" onclick="signUpFunc()"><i class="fas fa-times"></i></a>
+		<div class="signup__content">
+			<form action="" name="signupform">
+				<h2>Signup Here</h2>
+				<div class="input-div one">
+					<div class="i">
+					<i class="fas fa-user"></i>
 					</div>
 					<div>
-						<h3 class="login-out"><a class="text-color-lightgreen margin-left login-out " href="#"><i class="fas fa-unlock"></i>&nbsp;Log in</a></h3>
-						<h3 class="login-out"><a class="second-a text-color-white login-out" href="#">Sign up</a></h3>
+						<h5>Username</h5>
+						<input class="input" type="text">
 					</div>
 				</div>
-			</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div>
+						<h5>Password</h5>
+						<input class="input" type="password">
+					</div>
+				</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div>
+						<h5>Confirm Password</h5>
+						<input class="input" type="password">
+					</div>
+				</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-envelope-square"></i>
+					</div>
+					<div>
+						<h5>Email</h5>
+						<input class="input" type="email">
+					</div>
+				</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-phone"></i>
+					</div>
+					<div>
+						<h5>Phone</h5>
+						<input class="input" type="phone">
+					</div>
+				</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-calendar-week"></i>
+					</div>
+					<div>
+						<input class="input" type="date">
+					</div>
+				</div>
+				<input type="submit" class="btn" value="SIGNUP">
+			</form>
 		</div>
-	</header> -->
+	</section>
+	<!-- Login Sec -->
+	<section class="login">
+		<a href="#" class="login__close__icon" onclick="loginFunc()"><i class="fas fa-times"></i></a>
+		<div class="login__content">
+			<form action="" name="loginform">
+				<h2>Login Here</h2>
+				<div class="input-div one">
+					<div class="i">
+					<i class="fas fa-user"></i>
+					</div>
+					<div>
+						<h5>Username</h5>
+						<input class="input" type="text">
+					</div>
+				</div>
+				<div class="input-div two">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div>
+						<h5>Password</h5>
+						<input class="input" type="password">
+					</div>
+				</div>
+				<input type="submit" class="btn" value="Login">
+			</form>
+		</div>
+	</section>
 	<section id="showcase">
 			<div id="main-showcase">
 				<div>
@@ -55,10 +165,8 @@
 	<section id="Description">
 		<div class="container">
 			<div id="main-contant" class=" text-color-blue">
-			
-					<div class="font-size-2em"><h1 class="font-size-40px font-size-25px width">The Smart Domain Parking Platform</h1></div>
-					<h2 class="alignment">The right varification solution make your user <span>experiance</span> easiers</h2>
-			
+				<div class="font-size-2em"><h1 class="font-size-40px font-size-25px width">The Smart Domain Parking Platform</h1></div>
+				<h2 class="alignment">The right varification solution make your user <span>experiance</span> easiers</h2>
 			</div>
 		</div>
 	</section>
@@ -187,6 +295,7 @@
 		
 	</footer>
 	<script src="https://kit.fontawesome.com/b6fdcdf49e.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>

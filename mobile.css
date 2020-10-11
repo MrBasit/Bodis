@@ -1,9 +1,5 @@
 @import url("./style.css");
-header{
-    height: 147px;
-    display: flex;
-    flex-direction: column;
-}
+
 header .container{
     width: min(580px,95%);
 }
@@ -32,6 +28,30 @@ header .container{
     padding: 7px 20px;
     font-size: 12px;
 }
+
+
+/*
+========================================
+Sign-Up
+========================================
+*/
+
+.signup .signup__content{
+	max-width: 300px;
+	min-width: 300px;
+}
+
+/*
+========================================
+Login
+========================================
+*/
+
+.login .login__content{
+	max-width: 300px;
+	min-width: 300px;
+}
+
 /* 
 ========================
 Second Section
