@@ -1,5 +1,10 @@
 @import url("./style.css");
 
+/* freelnace */
+.freelance a.button{
+    display: none;
+}
+
 header .container{
     width: min(580px,95%);
 }

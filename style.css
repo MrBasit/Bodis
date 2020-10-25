@@ -57,7 +57,118 @@ ul{
 .mr-2{
     margin-right: 1em !important;
 }
+/*
+==================
+Freelance
+==================
+*/
 
+.freelancing{
+	background-color: #f4f4f4;
+	margin: auto;
+	padding: 5px 0px;
+}
+.freelance-container{
+	display: flex;
+	max-width: 1100px;
+	/* border:1px solid black; */
+	margin: auto;
+	background-color: #fff;
+}
+.freelance{
+	width: 33.33%;
+	padding: 1px 0px;
+	border-right: 5px solid #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.freelance-container > :last-child{
+	border:none;
+}
+.freelance *{
+	margin: 4px
+}
+.freelance p{
+    font-size: small;
+    font-weight: bold;
+}
+.freelance img{
+	width: 25px;
+}
+.freelance .imghover{
+	display: none;
+}
+.freelance:hover{
+	background-color: Black;
+	color: white;
+}
+.freelance:hover a.button{
+	color: white;
+	border:1px solid white;
+}
+.freelance:hover .imghover{
+	display: inline-block;
+}
+.freelance:hover .imgleave{
+	display: none;
+}
+.freelance a.button{
+	text-decoration: none;
+	color: black;
+	border:1px solid black;
+    padding: 4px 32px;
+    font-size: small;
+	border-radius: 5px;
+}
+.freelance a.img{
+	display: block;
+	width: 30px;
+}
+.freelance a.img img{
+	width: 100%;
+}
+
+#upwork a.button{ 
+   padding-right: 25px;
+   padding-left: 25px;
+   border-radius: 0px;
+ }
+ #github a.button{
+ 	border-radius: 3px;
+ }
+ #github:hover a.button{
+ 	border-color: green;
+
+ 	font-weight: bold;
+ 	  background: linear-gradient(to bottom, #85DC65, #5EB33E);
+
+ }
+ #github a.img,#upwork a.img {
+	 padding-right: 5px;
+	 width: 35px;
+ }
+ #upwork:hover a.button{
+     background-color: #31A200;
+     border:1px solid green;   
+     border-color: rgb(18, 171, 15);
+ }
+ #upwork a.img img{
+	 margin-top: 10px;
+ }
+#upwork:hover{
+	background-color: rgb(0, 55, 82);
+}
+#fiverr:hover a.button{
+	background-color: #01AB2A;
+	border:1px solid green;
+}
+#fiverr:hover{
+	background-color: rgb(0, 26, 0);
+}
+#fiverr img{
+	width:21px;
+}
 /*
 ========================================
 Header

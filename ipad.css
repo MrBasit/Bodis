@@ -1,4 +1,13 @@
 @import url("./style.css");
+
+.freelance p{
+    display: none;
+}
+.freelance a.button{
+    font-size: 10px;
+    padding: 4px 16px;
+    display: 3px 16px;
+}
 /* 
 ====================
 Header
