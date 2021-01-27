@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /*
 ========================================
 Global Style
@@ -235,11 +236,16 @@ header{
 .nav__item + .nav__item{
     margin-left: 2em;
 }
+.nav__list li:first-child a{
+  font-weight: 900;
+  cursor: pointer;
 
+}
 .nav__item .nav__link{
 	color: #212994;
 	font-size: .9rem;
-	font-weight: 700;
+  font-weight: 700;
+  cursor: not-allowed;
 }
 
 .nav__item--push--right{
@@ -812,7 +818,7 @@ Description
 	padding-bottom: 9px;
 }
 
-}
+
 /*
 ========================================
 Third Section
@@ -840,7 +846,8 @@ Third Section
 #main-contant-third > :nth-child(1) a{
 	padding: 9px 30px;
 	border: 1px solid #212994;
-	background: #212994;
+  background: #212994;
+  cursor: not-allowed;
 }
 #main-contant-third > :nth-child(1) a:hover{
 	background: #FFF;
@@ -878,7 +885,8 @@ Fourth Section
 #main-contant-fourth > :nth-child(1) a{
 	padding: 9px 30px;
 	background: #212994;
-	border: 1px solid #212994;
+  border: 1px solid #212994;
+  cursor: not-allowed;
 }
 #main-contant-fourth > :nth-child(1) a:hover{
 	background: #fFF;
@@ -958,7 +966,8 @@ Fifth Section
 	font-size: 10px;
 	transition: all;
 	border: 1px solid #212994;
-	transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: not-allowed;
 }
 #cards .card > :nth-child(1) a:hover{
 	background-color: #fff;
@@ -990,6 +999,9 @@ footer{
 	max-width: 850px;
 	
 	align-items: center;
+}
+#main-footer a{
+  cursor: not-allowed;
 }
 #main-footer > :nth-child(1){
 	width: 700px;
